@@ -16,3 +16,22 @@ This course is designed as an introduction to digital fabrication and the world 
 #####Make:
 
 * Create and publish a tutorial about something you know how to make.
+
+###Project 2: Learn to code with Processing 
+
+#####Questions/Research:
+
+* What is Processing.org? What platforms will Processing work on?
+* How do you download and install Processing on your computer?
+* How do you change the size of a sketch?
+* How do you change the background color?
+* How do you change the fill of a rectangle?
+* How do you write a for loop?
+
+#####Links:
+
+[First Day Code Snipets](https://github.com/mrmittag/Makerspace/Tutorials/processing_quickstart)
+[Proccessing.org](http://www.openprocessing.org/)
+
+
+
