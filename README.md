@@ -17,7 +17,7 @@ This course is designed as an introduction to digital fabrication and the world 
 
 * Create and publish a tutorial about something you know how to make.
 
-###Project 2: Learn to code with Processing 
+###Project 2: Quickstart with Processing 
 
 #####Questions/Research:
 
