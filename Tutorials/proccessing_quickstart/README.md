@@ -1,6 +1,12 @@
 QuickStart with Processing
 ====
 
+###File 1: 
+
+* do this 
+* do this 
+* now type this stuff
+
 ```java
 //This is a comment it starts with two forward slashes the computer does not read this
 //It is a great way to write notes to yourself or others reading your code.
