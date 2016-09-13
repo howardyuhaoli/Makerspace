@@ -41,6 +41,7 @@ void draw(){
 }
 ```
 Easier to read huh?
+* This will be how we set up all of our sketches from now on
 
 
 
