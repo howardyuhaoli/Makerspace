@@ -3,6 +3,8 @@ QuickStart with Processing
 
 ###Sketch 1: 
 
+![sketch 1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch1.png)
+
 ```java
 //This is a comment it starts with two forward slashes the computer does not read this
 //It is a great way to write notes to yourself or to others reading your code.
@@ -20,6 +22,8 @@ text("Hello World!!",120,30);// text() is a great way to write text to the scree
 // There are lots of other cool functions you can find them here file:///home/karpov/Downloads/processing-3.2.1/modes/java/reference/index.html
 ```
 ###Sketch 2: 
+
+![sketch 1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch1.png)
 
 ```java
 // This sketch is exactly the same as sketch1 except now we are placing our code inside two functions.
@@ -40,8 +44,12 @@ void draw(){
   text("Hello World!!",120,30);
 }
 ```
-Easier to read huh?
-* This will be how we set up all of our sketches from now on
+Easier to read huh?!
+
+###Sketch3
+
+
+
 
 
 
