@@ -28,7 +28,7 @@ text("Hello World!!",120,30);// text() is a great way to write text to the scree
 ```java
 // This sketch is exactly the same as sketch1 except now we are placing our code inside two functions.
 // void setup() is used to "setup" the file everything inside the { } is run exactly one time.
-// void draw() is a loop that runs forever.  Everything inside th { } is run until the sketch is terminated.
+// void draw() is a loop that runs forever.  Everything inside the { } is run until the sketch is terminated.
 
 
 void setup()
@@ -48,7 +48,33 @@ void draw()
 ```
 Easier to read huh?!
 
-###Sketch3
+###Sketch 3:
+
+```java
+int positionx=0;
+int speed=5;
+
+void setup()
+{
+  size(400,400);
+  background(255,255,255);
+}
+
+void draw()
+{
+  background(255,255,255);
+  positionx=positionx+speed;
+  
+  if (positionx >width){
+    speed =speed*-1;
+  }
+  if (positionx<0){
+    speed =speed*-1;
+  }
+  rect(positionx,200,50,50);
+  
+}
+```
 
 
 

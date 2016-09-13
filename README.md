@@ -30,7 +30,7 @@ This course is designed as an introduction to digital fabrication and the world 
 
 #####Links:
 
-* [First Day Code Snipets](https://github.com/mrmittag/Makerspace/tree/master/Tutorials/proccessing_quickstart)
+* [Processing Quickstart](https://github.com/mrmittag/Makerspace/tree/master/Tutorials/proccessing_quickstart)
 * [Proccessing.org](http://www.openprocessing.org/)
 
 
