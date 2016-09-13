@@ -19,6 +19,7 @@ text("Hello World!!",120,30);// text() is a great way to write text to the scree
 
 // There are lots of other cool functions you can find them here file:///home/karpov/Downloads/processing-3.2.1/modes/java/reference/index.html
 ```
+###Sketch 2: 
 
 ```java
 // This sketch is exactly the same as sketch1 except now we are placing our code inside two functions.
@@ -39,5 +40,8 @@ void draw(){
   text("Hello World!!",120,30);
 }
 ```
+Easier to read huh?
+
+
 
 
