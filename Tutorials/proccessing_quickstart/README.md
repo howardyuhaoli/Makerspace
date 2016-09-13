@@ -1,7 +1,7 @@
 QuickStart with Processing
 ====
 
-###File 1: 
+###Sketch 1: 
 
 ![Sketch1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch1.png)
 * Download processing
