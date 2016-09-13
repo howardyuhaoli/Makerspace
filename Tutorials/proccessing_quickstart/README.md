@@ -3,9 +3,10 @@ QuickStart with Processing
 
 ###File 1: 
 
-* do this 
-* do this 
-* now type this stuff
+* Download processing
+* Open it 
+* Now type this stuff
+* When your done press the play button (top left triangle)
 
 ```java
 //This is a comment it starts with two forward slashes the computer does not read this
@@ -23,5 +24,5 @@ text("Hello World!!",120,30);// text() is a great way to write text to the scree
 
 // There are lots of other cool functions you can find them here file:///home/karpov/Downloads/processing-3.2.1/modes/java/reference/index.html
 ```
-
+[Here is a link to this code]
 
