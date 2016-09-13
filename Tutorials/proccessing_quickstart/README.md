@@ -19,7 +19,7 @@ ellipse(100,200,50,50); // ellipse() draws a circle
 fill(255,255,255);
 text("Hello World!!",120,30);// text() is a great way to write text to the screen!
 
-// There are lots of other cool functions you can find them here file:///home/karpov/Downloads/processing-3.2.1/modes/java/reference/index.html
+// There are lots of other cool functions you can find them here https://processing.org/reference/
 ```
 ###Sketch 2: 
 
@@ -31,12 +31,14 @@ text("Hello World!!",120,30);// text() is a great way to write text to the scree
 // void draw() is a loop that runs forever.  Everything inside th { } is run until the sketch is terminated.
 
 
-void setup(){
+void setup()
+{
   size(400,400);
   background(255,0,0);
 }
 
-void draw(){
+void draw()
+{
   rect(200,200,50,50);
   fill(160,100,120);
   ellipse(100,200,50,50);
