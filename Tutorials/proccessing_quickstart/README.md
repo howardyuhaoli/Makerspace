@@ -3,6 +3,7 @@ QuickStart with Processing
 
 ###File 1: 
 
+![Sketch1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch1.png)
 * Download processing
 * Open it 
 * Now type this stuff
@@ -24,5 +25,5 @@ text("Hello World!!",120,30);// text() is a great way to write text to the scree
 
 // There are lots of other cool functions you can find them here file:///home/karpov/Downloads/processing-3.2.1/modes/java/reference/index.html
 ```
-[Here is a link to this code](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch1.png)
+[Here is a link to this code](https://github.com/mrmittag/Makerspace)
 
