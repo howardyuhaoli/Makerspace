@@ -51,8 +51,10 @@ Easier to read huh?!
 ###Sketch 3:
 
 ```java
-int positionx=0;
-int speed=5;
+// This is a sketch of a moving square that bounces back when it reaches the edge of the screen
+
+int positionx=0; //positionx is a variable of time integer it controls the location of the square along the x axis
+int speed=5;    // speed is a variable that controls the speed
 
 void setup()
 {
@@ -63,9 +65,9 @@ void setup()
 void draw()
 {
   background(255,255,255);
-  positionx=positionx+speed;
+  positionx=positionx+speed;  // after each iteration of the draw loop we add to positionx
   
-  if (positionx >width){
+  if (positionx >width){	// this block of code checks the position of the rectangle and changes its direction if it goes to far to the left or right
     speed =speed*-1;
   }
   if (positionx<0){
@@ -80,6 +82,7 @@ void draw()
 ![sketch 1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch4.png)
 
 ```java
+// This sketch uses the keys 'a' 'd' 'w' and 's' to move a rectangle around the screen.
 int x = 0;
 int y = 0;
 
