@@ -78,13 +78,13 @@ void draw()
 }
 ```
 
-###Sketch 4(Chris Paciello' solution):
+###Sketch 4(Chris Paciello' solution to moving a square with the keyboard):
 ![sketch 1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch4.png)
 
 ```java
 // This sketch uses the keys 'a' 'd' 'w' and 's' to move a rectangle around the screen.
-int x = 0;
-int y = 0;
+int x = 0;	// x variable is an integer that is used to control the rectangles x location.
+int y = 0;  // y variable is an integer that is used to control the rectangles y location.
 
 void setup()
 {
@@ -97,11 +97,11 @@ void draw()
   fill(190,240,45);
   rect(x,y,50,50);
  
-  if (keyPressed) 
+  if (keyPressed) 				// Is there a key on the keyboard pressed if so do the following
   {
-    if (key == 'a' || key == 'A') 
+    if (key == 'a' || key == 'A') 		// Now that we know there is a key pressed check to see if it is one that we want
       {
-        x=x-5;
+        x=x-5;							// Change the x coordinate 5 pixels
       }
     if (key == 'd' || key == 'D') 
       {
