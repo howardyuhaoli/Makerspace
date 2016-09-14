@@ -120,7 +120,7 @@ void draw()
 
 ```
 ###Sketch 5:
-
+![sketch 1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch5.png)
 ```java
 //This sketch uses the coordinates of the mouse to control the rectangles location.
 
