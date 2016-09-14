@@ -78,7 +78,7 @@ void draw()
 }
 ```
 
-###Sketch 4(Chris Paciello' solution to moving a square with the keyboard):
+###Sketch 4(Chris Paciello's solution to moving a square with the keyboard):
 
 <img src ="https://github.com/mrmittag/Makerspace/blob/master/Images/sketch4.png" width="387" height ="424" />
 
