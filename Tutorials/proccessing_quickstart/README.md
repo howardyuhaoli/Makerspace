@@ -76,6 +76,47 @@ void draw()
 }
 ```
 
+###Sketch 4(Chris Paciello' solution):
+![sketch 1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch4.png)
+
+```java
+int x = 0;
+int y = 0;
+
+void setup()
+{
+  size(400,400);
+}
+
+void draw()
+{
+  background(160,90,155);
+  fill(190,240,45);
+  rect(x,y,50,50);
+ 
+  if (keyPressed) 
+  {
+    if (key == 'a' || key == 'A') 
+      {
+        x=x-5;
+      }
+    if (key == 'd' || key == 'D') 
+      {
+        x=x+5;
+      }
+    if (key == 'w' || key == 'W') 
+      {
+        y=y-5;
+      }
+    if (key == 's' || key == 'S') 
+      {
+        y=y+5;
+      }
+   }
+}
+
+```
+
 
 
 
