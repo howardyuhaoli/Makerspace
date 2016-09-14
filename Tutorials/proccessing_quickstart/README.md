@@ -97,7 +97,7 @@ void draw()
   fill(190,240,45);
   rect(x,y,50,50);
  
-  if (keyPressed) 				// Is there a key on the keyboard pressed if so do the following
+  if (keyPressed) 				// Is there a key on the keyboard pressed? if so do the following
   {
     if (key == 'a' || key == 'A') 		// Now that we know there is a key pressed check to see if it is one that we want
       {
@@ -118,6 +118,23 @@ void draw()
    }
 }
 
+```
+###Sketch 5:
+
+```java
+//This sketch uses the coordinates of the mouse to control the rectangles location.
+
+void setup()
+{
+  size(400,400);
+  background(255,255,255);
+}
+
+void draw()
+{
+  //background(255,255,255);    // Uncomment this line to get rid of the rectangle tracers.
+  rect(mouseX,mouseY,50,50);    // The rectangles x and y coordinates are controlled by the mouse.
+}
 ```
 
 
