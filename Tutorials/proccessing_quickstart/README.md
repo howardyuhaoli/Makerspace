@@ -79,7 +79,8 @@ void draw()
 ```
 
 ###Sketch 4(Chris Paciello' solution to moving a square with the keyboard):
-![sketch 1](https://github.com/mrmittag/Makerspace/blob/master/Images/sketch4.png)
+
+<img src ="https://github.com/mrmittag/Makerspace/blob/master/Images/sketch4.png" width="387" height ="424" />
 
 ```java
 // This sketch uses the keys 'a' 'd' 'w' and 's' to move a rectangle around the screen.
