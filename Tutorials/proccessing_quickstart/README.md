@@ -141,15 +141,16 @@ void draw()
 ###Sketch 6:
 ```java
 /// This sketch is the same as # 4 except now we have a hero
-PImage hero,spriteSheet;
+
+PImage hero,spriteSheet;    //Create two new variables hero and spriteSheet these are images
 int x,y;
 
 void setup()
 {
   size(400,400);
   background(255,255,255);
-  spriteSheet = loadImage("hero.png");
-  hero = spriteSheet.get(0,0,35,32);
+  spriteSheet = loadImage("hero.png");		// Load the image and point the variable spriteSheet at the file.
+  hero = spriteSheet.get(0,0,35,32);       // Mask the spritesheet so that only one hero is shown.
 }
 
 void draw()
@@ -177,6 +178,8 @@ void draw()
   }
 }
 ```
+
+
 
 
 
