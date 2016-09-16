@@ -138,7 +138,45 @@ void draw()
 }
 ```
 
+###Sketch 6:
+```java
+/// This sketch is the same as # 4 except now we have a hero
+PImage hero,spriteSheet;
+int x,y;
 
+void setup()
+{
+  size(400,400);
+  background(255,255,255);
+  spriteSheet = loadImage("hero.png");
+  hero = spriteSheet.get(0,0,35,32);
+}
+
+void draw()
+{
+  background(255,255,255);
+  image(hero,x,y);
+  if (keyPressed)
+  {
+    if (key == 'a' || key == 'A')     // Now that we know there is a key pressed check to see if it is one that we want
+      {
+        x=x-5;              // Change the x coordinate 5 pixels
+      }
+    if (key == 'd' || key == 'D') 
+      {
+        x=x+5;
+      }
+    if (key == 'w' || key == 'W') 
+      {
+        y=y-5;
+      }
+    if (key == 's' || key == 'S') 
+      {
+        y=y+5;
+      }
+  }
+}
+```
 
 
 
