@@ -27,6 +27,7 @@ This course is designed as an introduction to digital fabrication and the world 
 * How do you change the background color?
 * How do you change the fill of a rectangle?
 * How do you write a for loop?
+* Put your cell phones away
 
 #####Links:
 
